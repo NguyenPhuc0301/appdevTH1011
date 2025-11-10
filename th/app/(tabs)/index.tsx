@@ -39,7 +39,7 @@ export default function Index() {
   };
 
   /*** BÀI 3 – Đổi màu nền ***/
-  const [color, setColor] = useState("#ff0000");
+  const [color, setColor] = useState("#f8f6f6ff");
 
   const randomColor = () => {
     const r = Math.floor(Math.random() * 256);
