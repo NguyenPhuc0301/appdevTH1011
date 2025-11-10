@@ -55,7 +55,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       {/* Header */}
-      <Text style={styles.header}>Bộ Bài React Native</Text>
+      <Text style={styles.header}>React Native</Text>
 
       {/* Khung bài học */}
       <Animated.View style={{ opacity: fadeAnim, width: "100%", flex: 1 }}>
